@@ -1,2 +1,2 @@
-# simple-android-app-fruits-classification
-Build and deploy TensorFlow model that trained using dataset from Kaggle into android app in TF-Lite format.
+# fruits-classification-tensorflow-lite
+Build and deploy TensorFlow model that trained using dataset from Kaggle into TF-Lite format.
