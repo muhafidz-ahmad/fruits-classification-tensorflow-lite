@@ -33,6 +33,6 @@ Model dilatih dengan hyperparameter sebagai berikut:
 * Optimizer: Adam
 * Learning rate: 0,0008
 
-Diperoleh akurasi ketika pelatihan (training) pada data latih di epoch terakhir adalah **88,56%**, dan akurasi pada data validasi di epoch terakhir adalah **89,87%. Ini artinya model sudah memiliki performa yang baik.
+Diperoleh akurasi ketika pelatihan (training) pada data latih di epoch terakhir adalah **88,56%**, dan akurasi pada data validasi di epoch terakhir adalah **89,87%**. Ini artinya model sudah memiliki performa yang baik.
 
 Karena performa model sudah baik dengan akurasi validasi di 89%, selanjutnya model akan disimpan dalam format TF-Lite untuk dilakukan deployment pada aplikasi android/ios.
