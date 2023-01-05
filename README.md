@@ -11,7 +11,7 @@
 
 Data akan diambil dari [kaggle](https://www.kaggle.com/datasets/raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables?select=ImageLabels.txt).
 
-Data terdiri dari beberapa jenis gambar buah-buahan yang segar dan juga yang busuk. Tiap gambar telah dipisahkan dalam foldernya masing-masing sesuai dengan jenis buah dan kesegarannya.
+Data terdiri dari beberapa jenis gambar buah-buahan yang segar dan juga yang busuk. Tiap gambar telah dipisahkan dalam foldernya masing-masing sesuai dengan jenis buah dan kesegarannya. Setiap gambar memiliki resolusi yang berbeda-beda.
 
 ## Augmentasi Gambar
 Dilakukan augmentasi gambar untuk melakukan transformasi pada gambar data latih sehingga akan membuat variasi yang lebih banyak pada data latih. Hal ini dilakukan untuk mengurangi overfitting ketika proses pelatihan.
@@ -21,6 +21,8 @@ Augmentasi yang dilakukan adalah:
 2. Memutar atau merotasi gambar hingga 20 derajat.
 3. Membalikkan gambar secara horizontal maupun vertikal.
 4. Mengisi bagian gambar yang kosong dengan warna yang ada didekatnya.
+
+Di tahap ini juga semua gambar akan disamakan resolusinya menjadi 128 x 128 pixels.
 
 ## Model Machine Learning
 Model machine learning akan dibuat menggunakan Convolutional Neural Networks dengan lapisan sebagai berikut.
